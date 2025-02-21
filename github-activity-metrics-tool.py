@@ -42,12 +42,12 @@ config['githubrepodetailscsvpath'] = config['githubrepodetailscsvpath'].replace(
 
 # update this list of queries to fit your institution
 querylist = []
-querylist.append("ut+austin+followers:>=" + str(config['minimumfollowers']) + "+repos:>=" + str(config['minimumrepos']))
-querylist.append("university+of+texas+at+austin+followers:>=" + str(config['minimumfollowers']) + "+repos:>=" + str(config['minimumrepos']))
-querylist.append("location:%22university+of+texas+at+austin%22&followers:>=" + str(config['minimumfollowers']) + "&repos:>=" + str(config['minimumrepos']))
-querylist.append("location:\"ut+austin\"&followers:>=" + str(config['minimumfollowers']) + "&repos:>=" + str(config['minimumrepos']))
-querylist.append("location%3AAustin+followers%3A%3E%3D40+repos%3A%3E%3D1&type=Users&ref=advsearch&l=&l=&s=followers&o=desc")
-querylist.append("texas+advanced+computing+center+in:bio&type=Users")
+querylist.append("jhu+followers:>=" + str(config['minimumfollowers']) + "+repos:>=" + str(config['minimumrepos']))
+querylist.append("johns+hopkins+university+followers:>=" + str(config['minimumfollowers']) + "+repos:>=" + str(config['minimumrepos']))
+querylist.append("location:%22johns+hopkins+university%22&followers:>=" + str(config['minimumfollowers']) + "&repos:>=" + str(config['minimumrepos']))
+querylist.append("location:\"baltimore\"&followers:>=" + str(config['minimumfollowers']) + "&repos:>=" + str(config['minimumrepos']))
+querylist.append("location%3ABaltimore+followers%3A%3E%3D40+repos%3A%3E%3D1&type=Users&ref=advsearch&l=&l=&s=followers&o=desc")
+querylist.append("johns+hopkins+in:bio&type=Users")
 
 
 
