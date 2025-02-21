@@ -128,13 +128,6 @@ def predictrole(parseddesc, fulldesc):
         if "alumn" in desc or "graduate of" in desc or "previously" in desc or "'2" in desc or "'1" in desc or "'0" in desc or "completed" in desc:
             prediction = "Alum"
 
-        if "boot" in desc and "camp" in desc:
-            prediction = "UT bootcamp student"
-
-        if "turing" in desc and "scholar" in desc:
-            prediction = "Student"
-            additionalinfo += "Undergraduate student (Turing Scholar)"
-
     predictionlist = [prediction,additionalinfo]
 
     print("returning the following predictionlist: " + str(predictionlist))
